@@ -1,0 +1,139 @@
+#container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 140px;
+}
+.heading-1{
+    font-size:xx-large;
+    
+}
+P{
+bottom: 500px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .first{
+    float: left;
+    left: 400;
+  }
+
+  #page2{
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+ 
+
+  }
+ 
+  .words{
+    font-size: xx-large;
+   padding-top: 35%;
+  }
+  .thirdrow{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: auto;
+    
+  }
+  .topnav {
+    overflow: hidden;
+    background-color:white;
+    padding-right: 300px;
+    width:750px;
+    margin:0 auto;
+  }
+  
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px 20px 30px;
+   
+    font-size: 32px;
+   
+   
+  }
+   input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: 2px;
+    font-size: 17px;
+  }
+ .icons{
+  padding-left: 15%;
+  padding-right: 15%;
+  border: px solid black;
+ }
+ .offers{
+  padding-left: 35%;
+  padding-right: 35%;
+  
+  
+ }
+ .image3{
+  padding-right: 70%;
+ }
+ 
+ .footer {
+  display: grid;
+  grid-template-columns:  auto auto auto auto auto;
+  gap: 10px;
+  padding-left: 20%;
+}
+.grid1{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+}
+.grid2{
+  display: grid;
+  grid-template-columns:auto auto auto auto auto;
+  gap: 2px;
+  padding-left: 18%;
+  padding-right: 18%;
+}
+.grid2{
+ display: grid;
+ grid-template-columns: auto auto auto auto auto;
+  padding-left: 18%;
+  padding-right: 18%;
+}
+.prices{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  padding: 10px;
+  grid-gap: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+ 
